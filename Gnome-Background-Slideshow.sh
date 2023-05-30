@@ -2,7 +2,9 @@ command=$0
 subcommand=$1
 
 _help() {
-	echo "Work in progress"
+	echo "Subcommands":
+	echo "Start"
+	echo "Stop"
 }
 
 case $subcommand in
