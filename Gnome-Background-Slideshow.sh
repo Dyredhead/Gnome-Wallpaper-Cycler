@@ -12,7 +12,7 @@ case $subcommand in
     
     *)
         shift
-        ${subcommand} $@
+        ${subcommand}.sh $@
         if ! [ $? = 0 ]; then
             echo "Error: '$subcommand' is not a known subcommand." >&2
             echo "       Run '$command --help' for a list of known subcommands." >&2
